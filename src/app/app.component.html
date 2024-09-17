@@ -1,0 +1,115 @@
+<article class="p-2">
+  <h1 class="text-3xl font-bold underline">
+    Estandar de front-end
+  </h1>
+  <ul class="list-disc px-8 scroll-pt-20">
+    <li>
+      Establecer directrices claras para el desarrollo del front-end utilizando Angular Material y Tailwind CSS.
+    </li>
+    <li>
+      Para ello se van a usar todos los compomentes disponibles en Angular Material y las utilidades de Tailwind CSS.
+    </li>
+  </ul>
+</article>
+<article class="p-4">
+  <section class="p-2">
+    <div class="example-label">Para menús</div>
+    <div class="example-button-row">
+      <button mat-button>Botón</button>
+      
+      <button mat-button disabled>Desahabilidato</button>
+      <a mat-button href="https://www.google.com/" target="_blank">Enlace</a>
+      
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+  <section class="p-2">
+    <div class="example-label">Para formularios</div>
+    <div class="example-button-row">
+      <button mat-raised-button>Botón</button>
+      <button mat-flat-button>Botón</button>
+      <button mat-raised-button disabled>Desahabilidato</button>
+      <a mat-raised-button href="https://www.google.com/" target="_blank">Enlace</a>
+      <a mat-flat-button href="https://www.google.com/" target="_blank">Enlace</a>
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+  <section class="p-2">
+    <div class="example-label">Iconos</div>
+    <div class="example-button-row">
+      <div class="example-flex-container">
+        <button mat-icon-button>
+          <mat-icon>open_in_new</mat-icon>
+        </button>
+        <button mat-icon-button disabled>
+          <mat-icon>open_in_new</mat-icon>
+        </button>
+      </div>
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+</article>
+
+<article class="p-4">
+
+  <h2>Campo  de texto recomendable</h2>
+  <p>
+    
+    <mat-form-field appearance="outline">
+      <mat-label >Nombre</mat-label>
+      <input matInput placeholder="ej: Juanito">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Solo nombre</mat-hint>
+    </mat-form-field>
+  </p>
+
+  <h2>Lista despleglable</h2>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Marca de Carros</mat-label>
+      <mat-select>
+        <mat-option value="volvo">Volvo</mat-option>
+        <mat-option value="bmw">BMW</mat-option>
+        <mat-option value="mercedes">Mercedes</mat-option>
+        <mat-option value="audi">Audi</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </p>
+</article>
+
+<article class="p-4">
+  <h2>Para cambiar de color se debe agregar las variantes al custom-theme</h2>
+  <button mat-raised-button class="button-error">
+    Enviar Error
+  </button>
+</article>
+
+
+<article class="p-4">
+  <h2>Así mismo se aconseja usar tailwind para el manejo del Layout; Flexbox y Grid; Spacing y Sizing</h2>
+  <section>
+    <div class="flex bg-slate-600">
+      <div class="flex-none w-14 bg-red-800">
+        01
+      </div>
+      <div class="flex-initial w-64 bg-blue-600">
+        02
+      </div>
+      <div class="flex-initial w-32 bg-green-500">
+        03
+      </div>
+    </div>
+  </section>
+</article>
+
+<article class="p-2 grid grid-cols-1 gap-4">
+  <section>
+    Documentación de Angular Material: 
+    <a mat-flat-button href="https://material.angular.io/" class="button-secondary" target="_blank">Enlace</a>
+    
+  </section>
+  <section>
+    Documentación de Tailwind CSS: 
+    <a mat-flat-button href="https://tailwindcss.com/" class="button-tertiary" target="_blank">Enlace</a>
+  </section>
+</article>
