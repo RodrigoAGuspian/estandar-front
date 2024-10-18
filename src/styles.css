@@ -5,4 +5,63 @@
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Open Sans", sans-serif; }
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Titillium Web", sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 22px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h4{
+    font-weight: 900;
+    font-size: 16px;
+}
+
+h5{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h6{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+span{
+    font-family: "Open Sans", sans-serif;
+}
+
+.body1{
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.body2{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.body3{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+button{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
